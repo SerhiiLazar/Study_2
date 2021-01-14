@@ -1,5 +1,5 @@
 // USER VARIABLES SECTION
-$accent: #000000; // Accent Color
+// Accent Color
 $fontsize: 16px; // Body Font Size
 $textcolor: #000000; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
@@ -29,6 +29,12 @@ $gutter: $grid-gutter-width;
   color: #fff;
 }
 
+.container {
+  width: 1110px;
+}
+.section__first {
+  background-color: $cream;
+}
 /*Remove Chrome autocomplete style*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -51,36 +57,27 @@ textarea {
   }
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .text-center {
   text-align: center;
 }
 
-b,
-strong {
-  font-weight: bold;
-}
-
 body {
-  font-family: $font;
+  margin: 0;
+  /*  font-family: $font;
   font-size: $fontsize;
   min-width: 320px;
   position: relative;
   line-height: 1.65;
   overflow-x: hidden;
   color: $textcolor;
+  margin-top: 20px; */
 }
 
 .container {
   @include container;
 }
 
-body.active-menu {
+/* body.active-menu {
   overflow: hidden;
   .overlay-menu {
     right: 0;
@@ -175,3 +172,4 @@ $radius-burger-line: 4px;
     }
   }
 }
+ */

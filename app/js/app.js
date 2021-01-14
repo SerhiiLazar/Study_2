@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
 
     MicroModal.init({
         onShow: modal => {
@@ -30,7 +30,7 @@ $(function () {
 
     /**Burger*/
 
-    var btnBurger = $('.burger-mobile');
+    /* var btnBurger = $('.burger-mobile');
 
     btnBurger.on('click', function () {
         if (!$(this).hasClass('active-mobile-btn')) {
@@ -45,7 +45,7 @@ $(function () {
     $('.overlay-menu').on('click', function () {
         $('body').removeClass('active-menu');
         $('.burger-mobile').removeClass('active-mobile-btn');
-    })
+    }) */
 
 
     /**Mask*/
@@ -130,4 +130,4 @@ $(function () {
     }
 
     changeMenu();
-});
+}); */
