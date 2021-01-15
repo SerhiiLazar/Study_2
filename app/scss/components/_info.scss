@@ -1,0 +1,32 @@
+.inform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    display: flex;
+    margin: 10px;
+
+    span {
+      font-weight: bold;
+      font-size: 30px;
+      color: $white;
+      letter-spacing: 0.02em;
+    }
+    p {
+      color: $white;
+      margin-left: 10px;
+      font-weight: normal;
+      font-size: 30px;
+      letter-spacing: 0.02em;
+    }
+  }
+  &__text {
+    margin-bottom: 69px;
+    p {
+      color: $white;
+      font-weight: 300;
+      font-size: 21px;
+    }
+  }
+}

@@ -15,30 +15,56 @@
 
   <body>
     <div class="section__first">
-      <div class="container">
+      <div class="wrapper">
         <div class="header">
           <div class="header__nav">
-            <ul>
-              <li><a href="#">Для мужчин</a></li>
-              <li><a href="#">Для женщин</a></li>
-              <li><a href="#">Для детей</a></li>
+            <ul class="nav">
+              <li class="item"><a href="#">Для мужчин</a></li>
+              <li class="item"><a href="#">Для женщин</a></li>
+              <li class="item"><a href="#">Для детей</a></li>
             </ul>
             <div class="logo">
               <img src="images/dest/logotipe.svg" alt="logotip" />
-              <h1>the loop</h1>
+              <span>the loop</span>
             </div>
-            <ul>
-              <li><a href="#">Оплата</a></li>
-              <li><a href="#">Доставка</a></li>
+            <ul class="nav">
+              <li class="item"><a href="#">Оплата</a></li>
+              <li class="item"><a href="#">Доставка</a></li>
             </ul>
 
             <div class="state">
-              <img src="images/dest/Group.png" alt="basket" />
+              <a href="#" class="buy"
+                ><img src="images/dest/Group.png" alt="button"
+              /></a>
               <span>5</span>
             </div>
           </div>
-          <div class="block__product"></div>
+          <div class="header__product">
+            <div class="count">
+              <p>Зимняя распродажа</p>
+              <h1>СКИДКИ ДО 90%</h1>
+              <a href="#" class="btn">СМОТРЕТЬ МОДЕЛИ</a>
+            </div>
+
+            <div class="info">
+              <div class="pay">
+                <strike>9 900 ₽ </strike>
+                <p>1 900 ₽</p>
+              </div>
+
+              <img src="images/dest/prod_svg.svg" alt="product" />
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="inform">
+      <div class="inform__title">
+        <span>БЕСПЛАТНАЯ ДОСТАВКА </span>
+        <p>ОТ 3000₽</p>
+      </div>
+      <div class="inform__text">
+        <p>Сделайте заказ и получите подарок!</p>
       </div>
     </div>
     <!-- <script src="js/app.min.js"></script> -->

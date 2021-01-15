@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: $accent;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  &:hover {
+    background: $purpul;
+
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 6px;
+    transition: all 0.3s;
+  }
+}

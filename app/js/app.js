@@ -49,12 +49,12 @@ $(function () {
 
 
     /**Mask*/
-    $('input[type="tel"]').inputmask({"mask": "+38(999) 999-99-99", clearMaskOnLostFocus: false});
-
+    /* $('input[type="tel"]').inputmask({"mask": "+38(999) 999-99-99", clearMaskOnLostFocus: false});
+ */
 
     /** Anchor*/
 
-    $("body").on("click", "a[href*='#']", function (event) {
+  /*   $("body").on("click", "a[href*='#']", function (event) {
         event.preventDefault();
 
         if ($('body').hasClass('active-menu')) {
@@ -62,31 +62,31 @@ $(function () {
             $('.burger-mobile').removeClass('active-mobile-btn')
 
         }
-
+ */
 
         //забираем идентификатор бока с атрибута href
-        var id = $(this).attr('href');
+        /* var id = $(this).attr('href'); */
         //Высота шапкис учетом отступов если она фиксированая (если нет убрать переменную heightHeader с top )
-        var heightHeader = $('.header').outerHeight(true);
+        /* var heightHeader = $('.header').outerHeight(true); */
         //узнаем высоту от начала страницы до блока на который ссылается якорь
        // var  top = $(id).offset().top - heightHeader; //Если header fixed
-        var top = $('#' + id).offset().top;
-        //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({
+       /*  var top = $('#' + id).offset().top;
+       */  //анимируем переход на расстояние - top за 1500 мс
+        /* $('body,html').animate({
             scrollTop: top
         }, 800);
     });
-
+ */
     /** Adaptive */
-    var window_width = window.innerWidth || document.documentElement.clientWidth,
+    /* var window_width = window.innerWidth || document.documentElement.clientWidth,
         lgMax = 1199,
         lgMin = 992,
         mdMax = 991,
         mdMin = 768,
         smMin = 576,
         xsMax = 575;
-
-    $(window).resize(function () {
+ */
+   /*  $(window).resize(function () {
         window_width = window_width = window.innerWidth || document.documentElement.clientWidth;
         changeMenu();
     });
@@ -97,9 +97,9 @@ $(function () {
         headerMenu = $('#nav-header'),
         headerPhone = $('.header-phones'),
         siteSearch = $('#header-search-form');
+ */
 
-
-    function desctopMenu() {
+    /* function desctopMenu() {
         $('#header-checkout-sidebar').before(authButton);
         $('#page-header .left-header').append(headerLang);
         $('#page-header .left-header').after(headerMenu);
@@ -130,4 +130,4 @@ $(function () {
     }
 
     changeMenu();
-}); */
+}); */ 
